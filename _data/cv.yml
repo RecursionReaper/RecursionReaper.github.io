@@ -2,67 +2,96 @@
   type: map
   contents:
     - name: Full Name
-      value: Aniket Kishore Desai
+      value: Albert Einstein
     - name: Date of Birth
-      value: 13th November 2005
+      value: 14th March 1879
     - name: Languages
-      value: English, Marathi, Hindi
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: B.Tech in Electronics and Telecommunication
-      institution: Veermata Jijabai Technological Institute, Mumbai
-      year: 2023 - 2027
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - Minor: Data Science
-        - CGPA: 9.1 (expected)
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
+      description:
+        - Description 1.
+        - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Research Intern
-      institution: Example Lab, IIT Bombay
-      year: 2024.05 - 2024.07
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
-        - Worked on signal processing and data analysis.
-        - Built tools in Python for automation and visualization.
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
+      description:
+        - Description 1.
+        - Description 2.
+
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
+
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
+      description:
+
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/RecursionReaper/RecursionReaper.github.io">Personal Website</a>
-      year: 2025 - Present
-      description: Built using al-folio Jekyll theme. Customized for portfolio and resume.
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
-  type: list
+  type: time_table
   contents:
-    - title: Smart India Hackathon Finalist
-      year: 2024
-      description: National-level hackathon finalist for solving a real-world civic problem.
-    - title: Max Planck Medal
-      year: 2029
-      description: For outstanding achievements in theoretical physics. *(Just an example – replace with your real ones)*
-
-- title: Skills
-  type: list
-  contents:
-    - title: Programming
+    - year: 1921
       items:
-        - C++
-        - Python
-        - MATLAB
-    - title: Tools & Platforms
+        - Nobel Prize in Physics
+        - Matteucci Medal
+    - year: 2029
       items:
-        - Git
-        - ROS 2
-        - Jupyter
-        - FastAPI
+        - Max Planck Medal
 
-- title: Interests
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items:
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
+
+- title: Other Interests
   type: list
   contents:
-    - SpeedCubing
-    - ProjectEuler
-    - Building gadgets from scratch
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
