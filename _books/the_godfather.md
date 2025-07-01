@@ -2,9 +2,8 @@
 layout: book-review
 title: A Master's Secret Whispers
 author: Kapil Gupta
-cover: assets/img/book_covers/masters_secret_whispers.jpg
-olid: OL30523277M          # Open Library ID (auto-fetches the cover if `cover` is omitted)
-isbn: 9781975841683        # ISBN-13 (dashes optional; ignored if `olid` already provides a cover)
+olid: OL30523277M          # just let Open Library supply the cover
+# cover: /assets/img/book_covers/masters_secret_whispers.jpg  # remove or comment out for now
 categories: philosophy self-help spirituality truth
 buy_link: https://www.amazon.com/Masters-Secret-Whispers-Kapil-Gupta/dp/0998076411
 started: 2024-08-23
